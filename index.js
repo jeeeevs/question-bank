@@ -9,11 +9,20 @@ const questionBankRequirement = fileProcessor.getDataFromFile(
 );
 
 if (questionBankService.validateDifficultyPerventage(questionBankRequirement)) {
-    const quesBank = questionBankService.getQuestions(
+    const quesBank = questionBankService.getQuestionBank(
         questionBankRequirement,
         questions
     );
-    console.log(quesBank);
+    if (quesBank.error.length > 0) {
+        console.log(
+            'There are issues with the question bank\n',
+            quesBank.error,
+            '\n'
+        );
+        quesBank.questions;
+    } else {
+        console.log('Your questions are', quesBank.questions);
+    }
 } else {
     console.log('Wrong total percentage');
 }
