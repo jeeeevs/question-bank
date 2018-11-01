@@ -1,0 +1,22 @@
+{
+  "name": "question-bank",
+  "version": "1.0.0",
+  "description": "Question bank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeeeevs/question-bank.git"
+  },
+  "author": "Jeevan N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeeeevs/question-bank/issues"
+  },
+  "homepage": "https://github.com/jeeeevs/question-bank#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
