@@ -1,5 +1,3 @@
-const http = require('http');
-
 const fileProcessor = require('./utils/fileProcessor');
 const questionBankService = require('./services/questionBankService');
 
@@ -21,7 +19,7 @@ if (questionBankService.validateDifficultyPerventage(questionBankRequirement)) {
         );
         quesBank.questions;
     } else {
-        console.log('Your questions are', quesBank.questions);
+        console.log('Your questions are\n', quesBank.questions);
     }
 } else {
     console.log('Wrong total percentage');

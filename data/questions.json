@@ -54,5 +54,26 @@
         "topic": "Optics",
         "difficulty": "Medium",
         "marks": 10
+    },
+    {
+        "text": "What is the speed of light 3?",
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Hard",
+        "marks": 15
+    },
+    {
+        "text": "What is rectilinear propogation 3?",
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Hard",
+        "marks": 5
+    },
+    {
+        "text": "What is rectilinear propogation 3?",
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Easy",
+        "marks": 5
     }
 ]

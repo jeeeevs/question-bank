@@ -36,7 +36,7 @@ function validateQuestionBank(totalMarksPerDifficlulty, totalRequiredMarks) {
                 } but has only ${difficulty.totalMarks} marks`
             );
         if (difficulty.questionCount == 0)
-            err.push(`Difficulty level ${key} has not question`);
+            err.push(`Difficulty level ${key} has no question`);
     });
     if (totalMarks < totalRequiredMarks)
         err.push(
